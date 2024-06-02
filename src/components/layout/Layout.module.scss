@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  flex-flow: row nowrap;
+  height: 100vh;
+  color: $black;
+  .today {
+    padding: 50px;
+    background-color: $white;
+    width: 450px;
+  }
+}
