@@ -3,6 +3,7 @@ import Search from '@/components/search/Search'
 import CardWeatherToday from '@/components/card-weather-today/CardWeatherToday'
 import ExtraInfoToday from '@/components/extra-info-today/ExtraInfoToday'
 import Place from '@/components/place/Place'
+import WeatherInfoHeader from '@/components/weather-info-header/WeatherInfoHeader'
 
 const Layout = () => {
   return (
@@ -13,7 +14,8 @@ const Layout = () => {
           <ExtraInfoToday />
           <Place />
         </section>
-        <section>
+        <section className={styles['weather-info']}>
+          <WeatherInfoHeader />
           <section></section>
           <section></section>
         </section>

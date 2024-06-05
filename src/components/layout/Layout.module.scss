@@ -6,6 +6,11 @@
   .today {
     padding: 50px;
     background-color: $white;
-    width: 450px;
+    width: 25%;
+  }
+  .weather-info {
+    padding: 50px 75px;
+    background-color: $gray-light;
+    width: 75%;
   }
 }
