@@ -1,0 +1,21 @@
+.card-day {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 25px 35px;
+  background-color: $white;
+  border-radius: 25px;
+  gap: 10px;
+  .card-day-header {
+
+  }
+  .card-day-content {
+    img {
+      width: 60px;
+      margin: auto;
+    }
+  }
+  .card-day-footer {
+
+  }
+}
